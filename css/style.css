@@ -47,7 +47,7 @@ a{
 .business{
     background-color: #2e2f42;
 }
-.business-h1{
+.business-h{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -67,7 +67,7 @@ a{
 .button-business:focus, .button-business:hover {
     background-color: #404BBF;
 }
-.base-h2{
+.base-h-two{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -75,7 +75,7 @@ a{
     text-align: center;
     color: #2e2f42;
 }
-.base-h2-1{
+.base-h-two-van{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -84,7 +84,7 @@ a{
     color: #2e2f42;
     text-transform: capitalize;
 }
-.base-h3{
+.base-h-tri{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
