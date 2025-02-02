@@ -21,13 +21,8 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     padding-bottom: 120px;
 }
 .container {
-    /* 1158px 1440px*/
     width: 1158px;
-    /* margin-left: 156px; */
-    /* margin-right: 156px; */
     margin: 0 auto;
-    /* padding-left: 24px; */
-    /* padding-right: 15px; */
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -115,14 +110,16 @@ a{
 .button-business:focus, .button-business:hover {
     background-color: #404BBF;
 }
-.base-h-two{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    display: none;
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
 }
 .base-h-two-van{
     font-weight: 700;
@@ -140,6 +137,7 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+
 }
 .base-p{
     font-size: 16px;
@@ -194,11 +192,14 @@ header .container{
     /* padding-top: 24px; */
 }
 /* Секція 2 */
-.opis .container ul{
-    display: flex;
+.opis{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.opis .container ul li:not(:last-child):not(:first-child){
-    margin: 0px 24px;
+.opis-ul{
+    display: flex;
+    gap: 24px;
+}
+.opis-li{
+    width: calc((100% - 72px) / 4);
 }
