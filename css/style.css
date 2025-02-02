@@ -161,16 +161,12 @@ header .container{
     gap: 40px;
     align-items: center;
 }
-.nav-link ul{
-    padding-bottom: 24px;
-    padding-top: 24px;
-}
 .address-head, .address-head ul{
     display: flex;
     gap: 40px;
     align-items: center;
 }
-.header-ul-class, .address-class{
+.li-header{
     padding-bottom: 24px;
     padding-top: 24px;
 }
