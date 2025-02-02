@@ -153,15 +153,17 @@ header .container{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+}
+header{
     padding-bottom: 24px;
     padding-top: 24px;
     padding-left: 15px;
     padding-right: 15px;
-    align-items: center;
 }
 .nav-link, .nav-link ul{
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 .address-head, .address-head ul{
     display: flex;
