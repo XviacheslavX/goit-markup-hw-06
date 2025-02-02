@@ -3,6 +3,9 @@ body {
     background-color: #fff;
     color: #434455;
 }
+img{
+    display: block;
+}
 h1,h2,h3,h4,h5,h6,p,ul,ol {
     margin: 0;
     padding: 0;
@@ -52,6 +55,7 @@ a{
     color: #2e2f42;
 }
 .link-header{
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -64,11 +68,14 @@ a{
     color: #404BBF;
 }
 .address-link{
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 .address-link:focus, .address-link:hover {
     color: #404BBF;
@@ -169,6 +176,6 @@ header .container{
 }
 .header-link{
     border-bottom: 1px solid #e7e9fc;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    /* padding-bottom: 24px; */
+    /* padding-top: 24px; */
 }
