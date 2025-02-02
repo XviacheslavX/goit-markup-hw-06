@@ -3,6 +3,29 @@ body {
     background-color: #fff;
     color: #434455;
 }
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* Для <ul>, щоб скинути стилі маркерів */
+    font-size: inherit;
+    /* Успадкувати розмір шрифту для консистентності */
+    font-family: inherit;
+    /* Успадкувати шрифт */
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.container {
+    /* 1158px 1440px*/
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin: 0 auto;
+}
 ul, ol {
     list-style-type: none;
 }
@@ -20,6 +43,8 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    margin-right: 76px;
 }
 .logo-text{
     color: #2e2f42;
@@ -122,4 +147,24 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+/* Початок 3 частини */
+header .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    align-items: center;
+}
+.nav-link, .nav-link ul{
+    display: flex;
+    gap: 40px;
+}
+.address-head, .address-head ul{
+    display: flex;
+    gap: 40px;
+}
+.address-head{
+    justify-content: flex-end;
 }
