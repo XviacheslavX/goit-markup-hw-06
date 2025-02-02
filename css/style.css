@@ -57,6 +57,8 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 .link-header:focus, .link-header:hover{
     color: #404BBF;
@@ -165,10 +167,6 @@ header .container{
     display: flex;
     gap: 40px;
     align-items: center;
-}
-.li-header{
-    padding-bottom: 24px;
-    padding-top: 24px;
 }
 .address-head{
     justify-content: flex-end;
