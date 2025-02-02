@@ -157,6 +157,8 @@ header .container{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 .nav-link, .nav-link ul{
     display: flex;
@@ -166,10 +168,6 @@ header .container{
 .address-head, .address-head ul{
     display: flex;
     gap: 40px;
-    align-items: center;
-}
-.address-head{
-    justify-content: flex-end;
 }
 .header-link{
     border-bottom: 1px solid #e7e9fc;
