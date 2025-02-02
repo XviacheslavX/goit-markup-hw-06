@@ -122,6 +122,7 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    display: none;
 }
 .base-h-two-van{
     font-weight: 700;
@@ -138,6 +139,7 @@ a{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .base-p{
     font-size: 16px;
@@ -191,4 +193,12 @@ header .container{
     /* padding-bottom: 24px; */
     /* padding-top: 24px; */
 }
-/* Секція  */
+/* Секція 2 */
+.opis .container ul{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.opis .container ul li:not(:last-child):not(:first-child){
+    margin: 0px 24px;
+}
