@@ -19,12 +19,14 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 }
 .container {
     /* 1158px 1440px*/
-    max-width: 1158px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
+    width: 1158px;
+    /* margin-left: 156px; */
+    /* margin-right: 156px; */
     margin: 0 auto;
+    /* padding-left: 24px; */
+    /* padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 ul, ol {
     list-style-type: none;
@@ -159,17 +161,20 @@ header .container{
     gap: 40px;
     align-items: center;
 }
+.nav-link ul{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
 .address-head, .address-head ul{
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 .address-head{
     justify-content: flex-end;
 }
 .header-link{
     border-bottom: 1px solid #e7e9fc;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
 }
