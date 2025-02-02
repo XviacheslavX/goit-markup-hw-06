@@ -82,6 +82,8 @@ a{
 }
 .business{
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .business-h{
     font-weight: 700;
@@ -90,8 +92,13 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .button-business{
+    display: block;
+    border: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -99,6 +106,11 @@ a{
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    height: 56px;
+    min-width: 169px;
+    margin: 0 auto;
+    border-radius: 4px;
+    
 }
 .button-business:focus, .button-business:hover {
     background-color: #404BBF;
@@ -179,3 +191,4 @@ header .container{
     /* padding-bottom: 24px; */
     /* padding-top: 24px; */
 }
+/* Секція  */
