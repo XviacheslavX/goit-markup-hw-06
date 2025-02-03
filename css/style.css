@@ -219,12 +219,14 @@ header .container{
     overflow: hidden;
 }
 .comand-link img{
-    padding-bottom: 32px;
     width: 100%;
 }
 .comand-link .base-h-tri {
     padding-bottom: 8px;
 }
-.comand-link .base-p {
-    padding-bottom: 32px;
+/* .comand-link .base-p { */
+    /* padding-bottom: 32px; */
+/* } */
+.div-comand{
+    padding: 32px 0;
 }
