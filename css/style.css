@@ -49,7 +49,7 @@ a{
 .logo-text{
     color: #2e2f42;
 }
-.link-header{
+.link-header {
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -58,6 +58,27 @@ a{
     color: #2e2f42;
     padding-bottom: 24px;
     padding-top: 24px;
+}
+.link-header-start{
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    position: relative;
+}
+.link-header-start::after {
+    content: '';
+    border-radius: 2px;
+    left: 0;
+    bottom: -1px;
+    width: 48px;
+    height: 4px;
+    position: absolute;
+    background-color: #404bbf;
 }
 .link-header:focus, .link-header:hover{
     color: #404BBF;
@@ -76,7 +97,12 @@ a{
     color: #404BBF;
 }
 .business{
+    
     background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -133,6 +159,7 @@ a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 .comand{
     background-color: #f4f4fd;
@@ -252,4 +279,121 @@ header .container{
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
 }
-/* секція 4 */
+/* Урок 4 */
+.test-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.comand-svg{
+    display: flex;
+    justify-content: center;
+}
+.comand-svg ul{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.comand-svg ul li{
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comand-svg ul li svg{
+    fill: white;
+}
+.comand-svg ul li:hover, .comand-svg ul li:focus{
+    background-color: #404bbf;
+}
+.portfolio-wrapper{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.portfolio-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+.portfilio-wrapper-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: #4d5ae5;
+}
+/* Ефект при наведенні */
+.portfolio-li:hover .portfilio-wrapper-text {
+    opacity: 1;
+}
+
+.portfolio-li:hover img {
+    opacity: 0;
+}
+.portfilio-wrapper-text-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+}
+.footer-link{
+}
+.footer-logo{}
+.footer-container{
+    display: flex;
+    gap: 120px;
+}
+.footer-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.fotter-svg {
+    display: flex;
+    justify-content: center;
+}
+
+.fotter-svg ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.fotter-svg ul li {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotter-svg ul li svg {
+    fill: white;
+}
+
+.fotter-svg ul li:hover,
+.fotter-svg ul li:focus {
+    background-color: #31D0AA;
+}
