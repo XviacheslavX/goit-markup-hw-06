@@ -307,12 +307,12 @@ header .container{
     display: flex;
     justify-content: center;
 }
-.comand-svg ul{
+.comand-svg-ul{
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
-.comand-svg ul li{
+.comand-svg-a{
     background-color: #4D5AE5;
     border-radius: 50%;
     width: 40px;
@@ -321,10 +321,10 @@ header .container{
     align-items: center;
     justify-content: center;
 }
-.comand-svg ul li svg{
+.svg-icon{
     fill: white;
 }
-.comand-svg ul li:hover, .comand-svg ul li:focus{
+.comand-svg-a:hover, .comand-svg-a:focus{
     background-color: #404bbf;
 }
 .portfolio-wrapper{
