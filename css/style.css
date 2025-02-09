@@ -99,8 +99,7 @@ a{
     color: #404BBF;
 }
 .business{
-    
-    background-color: #2e2f42;
+    /* background-color: #2e2f42; */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -170,6 +169,11 @@ a{
 }
 .comand-link{
     background-color: #fff;
+}
+.comand-img{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .footer{
     background-color: #2e2f42;
@@ -361,9 +365,6 @@ header .container{
     color: #f4f4fd;
     padding: 40px 32px;
 }
-.footer-link{
-}
-.footer-logo{}
 .footer-container{
     display: flex;
     gap: 120px;
