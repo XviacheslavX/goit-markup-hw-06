@@ -169,12 +169,11 @@ a{
 }
 .comand-link{
     background-color: #fff;
-}
-.comand-img{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-                0px 1px 1px rgba(46, 47, 66, 0.16),
-                0px 2px 1px rgba(46, 47, 66, 0.08);
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .footer{
     background-color: #2e2f42;
     padding-top: 100px;
@@ -259,7 +258,11 @@ header .container{
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     overflow: hidden;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .comand-link img{
     width: 100%;
 }
@@ -311,8 +314,8 @@ header .container{
     display: flex;
     flex-direction: row;
     gap: 24px;
-        display: flex;
-            justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .comand-svg-a{
     background-color: #4D5AE5;
@@ -322,9 +325,10 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-icon{
-    fill: white;
+    fill: #f4f4fd;
 }
 .comand-svg-a:hover, .comand-svg-a:focus{
     background-color: #404bbf;
