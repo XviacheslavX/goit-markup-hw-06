@@ -335,41 +335,30 @@ header .container{
 }
 .portfolio-wrapper{
     position: relative;
-    width: 100%;
-    height: 300px;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-wrapper img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: opacity 0.3s ease;
+/* Ефект при наведенні */
+.portfolio-li:hover .portfilio-wrapper-text-p {
+    transform: translateY(0);
 }
-.portfilio-wrapper-text{
+
+.portfilio-wrapper-text-p{
+    background-color: #4d5ae5;
+    color: #f4f4fd;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    background-color: #4d5ae5;
-}
-/* Ефект при наведенні */
-.portfolio-li:hover .portfilio-wrapper-text {
-    opacity: 1;
-}
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.portfolio-li:hover img {
-    opacity: 0;
-}
-.portfilio-wrapper-text-p{
+    padding: 40px 32px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
 }
 .footer-container{
     display: flex;
@@ -388,13 +377,13 @@ header .container{
     justify-content: center;
 }
 
-.fotter-svg ul {
+.footer-svg-ul {
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
 
-.fotter-svg ul li {
+.footer-svg-a {
     background-color: #4D5AE5;
     border-radius: 50%;
     width: 40px;
@@ -408,7 +397,7 @@ header .container{
     fill: white;
 }
 
-.fotter-svg ul li:hover,
-.fotter-svg ul li:focus {
+.footer-svg-a:hover,
+.footer-svg-a:focus {
     background-color: #31D0AA;
 }
