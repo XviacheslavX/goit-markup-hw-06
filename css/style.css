@@ -372,15 +372,11 @@ header .container{
     color: #fff;
     margin-bottom: 16px;
 }
-.fotter-svg {
-    display: flex;
-    justify-content: center;
-}
-
 .footer-svg-ul {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    justify-content: center;
 }
 
 .footer-svg-a {
