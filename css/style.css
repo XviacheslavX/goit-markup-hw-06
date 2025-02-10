@@ -102,7 +102,7 @@ a{
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.png);
+        url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -371,7 +371,7 @@ header .container{
 .footer-container{
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    /* gap: 120px; */
 }
 .footer-text{
     font-weight: 500;
@@ -406,4 +406,7 @@ header .container{
 .footer-svg-a:hover,
 .footer-svg-a:focus {
     background-color: #31D0AA;
+}
+.footer-logo {
+    margin-right: 120px;
 }
