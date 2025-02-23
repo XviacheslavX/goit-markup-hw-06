@@ -533,7 +533,6 @@ font-weight: 400;
 }
 .modal-input-div{
     position: relative;
-    margin-bottom: 8px;
 }
 .svg-icon-input{
     position: absolute;
@@ -545,4 +544,7 @@ font-weight: 400;
 }
 .modal-input:focus+.svg-icon-input {
     fill: #4D5AE5;
+}
+.modal-form{
+    margin-bottom: 8px;
 }
