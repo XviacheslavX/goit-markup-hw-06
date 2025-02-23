@@ -517,6 +517,7 @@ font-weight: 400;
     margin-bottom: 4px;
 }
 /* Поля */
+
 .modal-input{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -532,10 +533,16 @@ font-weight: 400;
 }
 .modal-input-div{
     position: relative;
+    margin-bottom: 8px;
 }
 .svg-icon-input{
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input:focus+.svg-icon-input {
+    fill: #4D5AE5;
 }
