@@ -1,14 +1,40 @@
-<form>
-  <label class="modal-label">Name<input type="text" name="name" /></label>
-  <label class="modal-label">Phone<input type="tel" name="phone" /></label>
-  <label class="modal-label">Email<input type="email" name="email" /></label>
-  <label class="modal-label"
-    >Comment<textarea name="comment" placeholder="Text input"></textarea>
-  </label>
-  <!-- <label><input type="text" /></label> -->
-  <input type="checkbox" class="modal-checkbox" id="modal-checkbox" />
-  <label for="modal-checkbox" class="modal-checkbox-text"
-    >I accept the terms and conditions of the Privacy Policy</label
-  >
-  <button type="button" class="modal-button-send">Send</button>
-</form>
+.footer-form{ margin-left: 80px; } .footer-form-text{ font-weight: 500;
+font-size: 16px; /* line-height: 24px; */ line-height: 1.5; letter-spacing:
+0.02em; color: #fff; margin-bottom: 16px; } .footer-input{ border: 1px solid
+#fff; border-radius: 4px; width: 264px; height: 40px; padding-left: 16px;
+background-color: transparent; outline: transparent; /* */ font-weight: 400;
+font-size: 12px; /* line-height: 24px; */ line-height: 2; letter-spacing:
+0.04em; color: #fff; transition: border-color 250ms cubic-bezier(0.4, 0, 0.2,
+1); } .footer-input::placeholder { color: #fff; /* Колір для placeholder */ }
+.footer-input:focus, .footer-input:hover{ border-color: #4D5AE5; }
+.footer-button-send{ display: inline-flex; border-radius: 4px; padding: 8px
+24px; min-width: 165px; height: 40px; background-color: #4d5ae5; border: none;
+color: #FFFFFF; fill: #FFFFFF; /* text */ font-weight: 500; font-size: 16px; /*
+line-height: 24px; */ line-height: 1.5; letter-spacing: 0.04em; text-align:
+center; color: #fff; cursor: pointer; transition: background-color 250ms
+cubic-bezier(0.4, 0, 0.2, 1); } .footer-button-send:hover { background-color:
+#404BBF; } .footer-button-span{ display: inline-flex; align-items: center;
+justify-content: center; margin-left: 16px; }
+
+<!--  -->
+
+<div class="footer-form">
+  <p class="footer-form-text">Subscribe</p>
+  <form>
+    <input
+      type="email"
+      class="footer-input"
+      id="footer-input"
+      name="footer-input"
+      placeholder="E-mail"
+    />
+    <button type="button" class="footer-button-send">
+      Subscribe
+      <span class="footer-button-span"
+        ><svg width="24" height="24">
+          <use href="./images/telegram.svg#icon-telegram"></use>
+        </svg>
+      </span>
+    </button>
+  </form>
+</div>

@@ -465,9 +465,9 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form">
-          <p class="footer-form-text">Subscribe</p>
-          <form>
+        <form class="footer-form">
+          <label for="footer-input" class="footer-form-text"
+            >Subscribe
             <input
               type="email"
               class="footer-input"
@@ -475,16 +475,14 @@
               name="footer-input"
               placeholder="E-mail"
             />
-            <button type="button" class="footer-button-send">
-              Subscribe
-              <span class="footer-button-span"
-                ><svg width="24" height="24">
-                  <use href="./images/telegram.svg#icon-telegram"></use>
-                </svg>
-              </span>
-            </button>
-          </form>
-        </div>
+          </label>
+          <button type="button" class="bt-ft-form">
+            Subscribe
+            <svg height="24" width="24" class="svg-icon-footer-form">
+              <use href="./images/telegram.svg#icon-telegram"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <!-- is-open -->
