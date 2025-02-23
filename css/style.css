@@ -410,3 +410,27 @@ header .container{
 .footer-logo {
     margin-right: 120px;
 }
+/* Work 5 */
+.modal-overlay {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal {
+    background-color: blue;
+    /* f */
+}
