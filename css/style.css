@@ -731,6 +731,10 @@ a {
     color: #fff;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-input:focus {
+    border-color: #4D5AE5;
+    opacity: 0.8;
+}
 .bt-ft-form {
     display: flex;
     align-items: center;
@@ -807,9 +811,6 @@ a {
     }
     .footer-input::placeholder {
         color: #fff;
-    }
-    .footer-input:focus {
-        border-color: #4D5AE5;
     }
     .footer-svg-a:hover,
     .footer-svg-a:focus {
